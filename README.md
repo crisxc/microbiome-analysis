@@ -27,7 +27,7 @@ This part of the workflow determines which bacterial and archaeal taxa are repre
 
 Kraken2 classifies the trimmed reads against GTDB V226 (really big prokaryotic reference database).I found that the this database is more comprehensive than standard NCBI RefSeq, so its boosts our classification rates in these complex communities.
 
-I wrote a custom script to convert my Kraken2-GTDB output into a BIOM format (standard for microbiome data). The resulting taxonomic count tables can then be summarized at the domain (Bacteria and Archaea), phylum, and species levels and compared across treatments.
+I wrote a custom script to convert my Kraken2-GTDB output into a BIOM format (crisxc/kraken-biom-gtdb). The resulting taxonomic count tables can then be summarized at the domain (Bacteria and Archaea), phylum, and species levels and compared across treatments.
 
 **Scripts:** `004`
 
@@ -83,7 +83,7 @@ I also came across metaSMASH, which identifies predicted biosynthetic gene clust
 
 `scripts/` contains the numbered workflow from raw-read preparation through taxonomic profiling, assembly, annotation, read mapping, and feature quantification.
 
-`notebooks/` contains Jupyter notebooks used for data analysis and figure-making.
+`notebooks/` contains Jupyter notebooks used for data analysis and figure-making... Will add later
 
 
 
